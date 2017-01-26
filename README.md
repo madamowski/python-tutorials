@@ -9,11 +9,12 @@ conda create --name python-environment
 source activate python-tutorials
 
 ## install new package (via conda)
-conda install <package-name>
+conda install package-name
 
 ## install new package (via pip - if not available in conda)
 conda install pip
-pip install <package-name>
+
+pip install package-name
 
 ## create/update requirements file
 conda list --export > requirements.txt
