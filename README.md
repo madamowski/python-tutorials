@@ -18,4 +18,4 @@ http://conda.pydata.org/docs/_downloads/conda-pip-virtualenv-translator.html
 conda install -c conda-forge nb_conda
 
 ## Launch jupyter (run from env)
-jpyter notebook
+jupyter notebook
