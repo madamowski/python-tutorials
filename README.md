@@ -1,22 +1,21 @@
 # python-tutorials
 
-## Create new Conda env from requirements file
-conda create --name python-tutorials --file requirements.txt
-
 ## Create new Conda env
-conda create --name python-environment
+conda create --name python-tutorials python=3.5
 
+## Activate env
 source activate python-tutorials
 
-## install new package (via conda)
-conda install package-name
-
-## install new package (via pip - if not available in conda)
-conda install pip
-
+## install new package (via pip)
 pip install package-name
 
 ## create/update requirements file
 conda list --export > requirements.txt
 
 http://conda.pydata.org/docs/_downloads/conda-pip-virtualenv-translator.html
+
+## Enable conda envs in jupyter (run from env)
+conda install -c conda-forge nb_conda
+
+## Launch jupyter (run from env)
+jpyter notebook
