@@ -19,3 +19,8 @@ conda install -c conda-forge nb_conda
 
 ## Launch jupyter (run from env)
 jupyter notebook
+
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
