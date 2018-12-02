@@ -16,13 +16,15 @@ http://conda.pydata.org/docs/_downloads/conda-pip-virtualenv-translator.html
 
 ## Enable conda envs in jupyter (run from env)
 conda install jupyter  # if not installed already
+
 conda install nb_conda
+
 conda install ipykernel
+
 python -m ipykernel install --user --name python-tutorials
 
 ## Launch jupyter (run from env)
 jupyter notebook
-
 
 pip freeze > requirements.txt
 
