@@ -6,7 +6,7 @@ Using conda envs with pip requirements
 conda info --envs
 
 ## Create new Conda env
-conda create --n python-tutorials python=3.6
+conda create --name python-tutorials python=3.6
 
 ## Activate env (osx)
 source activate python-tutorials
